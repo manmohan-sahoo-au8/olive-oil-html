@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <div class="content">
+    <button id="scroll_up" onclick="topFunction()">
+    <i class="fas fa-chevron-up"></i>
+    </button>
+    <!-- <div class="nav_container">
+      <img class="logo" src="./images/logo.png" alt="">
+      <div id="navbar" class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+        </div>
+        
+        <nav  class="navbar navbar-dark bg-transparent">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="icons">
+          <i class="fa fa-shopping-cart" style="color:white"></i>
+          <i class="fa fa-search" style="color:white"></i>
+          </div>
+        </nav>
+      </div>
+      
+     
+      <div class="oliveoil">
+      <p class="quality_para">High qualityolive oils and balsamic vinegars</p>
+      <h1 class="olive_h1">Olive Oils and Vinegars!</h1>
+      <button class="shop_button">SHOP NOW!</button>
+      </div>
+    </div> -->
+<div class="nav_container">
+  <img class="logo" src="./images/logo.png" alt="">
+  <div class="oliveoil">
+    <p class="quality_para">High qualityolive oils and balsamic vinegars</p>
+    <h1 class="olive_h1">Olive Oils and Vinegars!</h1>
+    <button class="shop_button">SHOP NOW!</button>
+  </div>
+<nav id="navbar" >
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">HOME</a>
+  <a href="#">SHOP</a>
+  <a href="#">OUR RANGE</a>
+  <a href="#">ABOUT US</a>
+  <a href="#">NEWS</a>
+  <a href="#">CONTACT</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<div class="icons">
+  <i class="fa fa-shopping-cart" style="color:white"></i>
+  <i class="fa fa-search" style="color:white"></i>
+</div>
+</nav>
+</div>
+
+    <div >
+      <div class="row" id="row">
+        <div class="col-sm">
+          <div class="sc_icon"><i class="fas fa-seedling fa-3x" style="color:#FFCF00"></i></div>
+        <h4 class="sc_icon_h4">Gourmet Flavour</h4>
+        <p class="sc_icon_para">We focus on providing our clients only the freshest products from around the world.</p>
+        </div>
+        <div class="col-sm">
+          <div class="sc_icon"><i class="fas fa-seedling fa-3x" style="color:#FFCF00"></i></div>
+
+          <h4 class="sc_icon_h4">Special Oils</h4>
+          <p class="sc_icon_para">The taste, the aroma and the natural ingredients of olive oils are kept unaltered.</p>
+        </div>
+        <div class="col-sm">
+          <div class="sc_icon"><i class="fas fa-seedling fa-3x" style="color:#FFCF00"></i></div>
+
+          <h4 class="sc_icon_h4">Health Benefits</h4>
+          <p class="sc_icon_para">The health benefits of olive oil are unrivaled, and research reveals new every day.</p>
+        </div>
+        <div class="col-sm">
+          <div class="sc_icon"><i class="fas fa-seedling fa-3x" style="color:#FFCF00"></i></div>
+
+          <h4 class="sc_icon_h4">Extraordinary Taste</h4>
+          <p class="sc_icon_para">We produce every day the extraordinary just-pressed organic olive oil.</p>
+        </div>
+      </div>
+    </div>
+    <div class="what_we_do_container">
+    <div class="what_we_do">
+      <img class="what_we_do_image" src="./images/title_img.webp" alt="we_do">
+      <div class="what_we_do_h2">
+        <h2>What We Do</h2>
+      </div>
+    </div>
+    <div >
+      <div class="row">
+        <div class="col-4 col-md-4">
+          <img class="what_we_do_image1" src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/image-7.jpg" alt="" width="265px"  height="160px">
+          <h4 class="what_we_do_h4">Extra Virgin Olive Oil</h4>
+          <p class="what_we_do_para">Olive oil is made simply by crushing olives and extracting the juice. It is the only
+            cooking oil that is made without
+            the use of chemicals.</p>
+        </div>
+        <div class="col-4 col-md-4">
+          <img class="what_we_do_image1" src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/image-8.jpg" alt="" width="265px" height="160px">
+    
+          <h4 class="what_we_do_h4">Aged Balsamic Vinegar</h4>
+          <p class="what_we_do_para">Balsamic vinegar is rich and has a complex flavour that balances the sweet and sour
+            elements of the cooked grape juice
+            with hints of wood.</p>
+        </div>
+        <div class="col-4 col-md-4">
+          <img class="what_we_do_image1" src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/image-9.jpg" alt="" width="265px">
+    
+          <h4 class="what_we_do_h4">Gourmet Salts</h4>
+          <p class="what_we_do_para">Huge selection of gourmet salts for every flavor profile. Our variety of culinary sea
+            salts add an impressive finishing
+            touch to any meal.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="what_we_do">
+      <img class="what_we_do_image" src="./images/title_img.webp"
+        alt="we_do">
+      <div class="what_we_do_h2">
+        <h2>Our Story</h2>
+      </div>
+    </div>
+      <div class="our_story_container" id="our_story_container">
+        <div class="row">
+          <div class="col">
+            <img src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/background-2.jpg" alt="">
+          </div>
+          <div class="col" id="column2">
+            <div id="status-buttons" class="text-center">
+              <a href="#"><span><i class="fas fa-burn fa-2x" style="color:black" ></i></span>1957</a>
+              <a href="#"><span><i class="fas fa-burn fa-2x" style="color:black"></i></span>1962</a>
+              <a href="#"><span><i class="fas fa-burn fa-2x" style="color:black"></i></span>1974</a>
+              <a href="#"><span><i class="fas fa-burn fa-2x" style="color:black"></i></span>2006</a>
+              <a href="#"><span><i class="fas fa-burn fa-2x" style="color:black"></i></span>2016</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="property_container">
+      <h1 class="property_h1">The poetry of olives for heartfelt
+      culinary inspiration</h1>
+    </div>
+    <div class="what_we_do">
+      <img class="what_we_do_image" src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/title_img.png"
+        alt="we_do">
+      <div class="what_we_do_h2">
+        <h2>Our Range</h2>
+      </div>
+    </div>
+    <div id="our_range_container">
+    <div class="row" id="our_range_row">
+        <img src="./images/slide_bg_1.jpg" alt="" width="500px">
+        <div class="col" id="column3">
+        <img class="our_range_icon" src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/icon-1.png" alt="" width="50px">
+        <h3 class="our_range_h3">Choose From Our Superb Range of Quality Oils, From Extra Virgin to Infused Oils!</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="extra_virgin_container">
+      <div class="row">
+        <div class="col-sm" >
+          <div class="pull-left" id="extra_virgin_circle"><i class="fas fa-seedling fa-3x" style="color:black"></i></div> 
+          <div class="extyra_virgin_div">
+          <h4 class="extra_virgin_h1">Extra Virgin</h4>
+          <p class="extra_virgin_para">Olive oil comes from unadulterated oil production only, and is of higher quality.</p>
+          </div>
+          </div>
+          <div class="col-sm">
+            <div class="pull-left" id="extra_virgin_circle"><i class="fas fa-seedling fa-3x" style="color:black"></i></div>
+            <div class="extyra_virgin_div">
+              <h4 class="extra_virgin_h1">New Harvest</h4>
+              <p class="extra_virgin_para">Harvest oil is dedicated to providing you high quality ultra premium olive oils and vinegar.</p>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="pull-left" id="extra_virgin_circle"><i class="fas fa-seedling fa-3x" style="color:black"></i></div>
+              <div class="extyra_virgin_div">
+                <h4 class="extra_virgin_h1">Original Taste</h4>
+                <p class="extra_virgin_para">The taste, the aroma and the natural ingredients of olive oils are kept unaltered.</p>
+              </div>
+              </div>
+            
+      </div>
+       <div class="row">
+        <div class="col-sm" >
+          <div class="pull-left" id="extra_virgin_circle"><i class="fas fa-seedling fa-3x" style="color:black"></i></div> 
+          <div class="extyra_virgin_div">
+          <h4 class="extra_virgin_h1">A Delicate Blend</h4>
+          <p class="extra_virgin_para">A delicate blending operation is required to ensure our olive oil has a perfect balance.</p>
+          </div>
+          </div>
+          <div class="col-sm">
+            <div class="pull-left" id="extra_virgin_circle"><i class="fas fa-seedling fa-3x" style="color:black"></i></div>
+            <div class="extyra_virgin_div">
+              <h4 class="extra_virgin_h1">High Quality</h4>
+              <p class="extra_virgin_para">A high quality extra virgin olive oil is perfect as a condiment for fish, meat and vegetables.</p>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="pull-left" id="extra_virgin_circle"><i class="fas fa-seedling fa-3x" style="color:black"></i></div>
+              <div class="extyra_virgin_div">
+                <h4 class="extra_virgin_h1">Organic Only</h4>
+                <p class="extra_virgin_para">We produce high quality organic olive oil because we use only eco-friendly products.</p>
+              </div>
+              </div>
+            
+      </div>
+    </div>
+    <div id="new_products_container">
+    <div class="what_we_do">
+      <img class="what_we_do_image" src="./images/title_img.webp" alt="we_do">
+      <div class="what_we_do_h2">
+        <h2>New Products</h2>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card" >
+          <img class="card-img-top" src="./images/product-4-600x600.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-title text-center">Blended Olive Oil</p>
+            <h5 class="card-text text-center">$40.99
+            </h5>
+            <div class="text-center">
+            <a href="#" class="btn btn-light" style="background-color: #E1DDD3;">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" >
+        <div id="card" class="card" >
+          <img class="card-img-top" src="./images/product-5-600x600.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-title text-center">Crude Olive-Pomace Oil</p>
+            <h5 class="card-text text-center">$12.99
+            </h5>
+            <div class="text-center">
+              <a href="#" class="btn btn-light" style="background-color: #E1DDD3;">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" >
+          <img class="card-img-top" src="./images/product-7-600x600.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-title text-center">Extra Virgin Olive Oil</p>
+            <h5 class="card-text text-center">$28.99
+            </h5>
+            <div class="text-center">
+              <a href="#" class="btn btn-light" style="background-color: #E1DDD3;">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card" >
+          <img class="card-img-top" src="./images/product-6-600x600.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-title text-center">Unfiltered Olive Oil</p>
+            <h5 class="card-text text-center">$28.99
+            </h5>
+            <div class="text-center">
+              <a href="#" class="btn btn-light" style="background-color: #E1DDD3;">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <a href="#" class="btn btn-light" style="background-color: #ffcf00;">VIEW ALL</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="health_benefits_container">
+      <h4 class="health_benefits_h4">Health Benefits</h4>
+    <div class="container" id="health_container">
+      <div class="row">
+        <div class="col">
+              <div class="right" id="heart_attack_circle">1.</div>
+              <a href="#" id="prevents" class="text-warning" >Prevents Heart Attacks</a>
+              <p class="prevents_para">Olive oil is one of the healthiest types of fat around, so you should choose fats wisely.</p>
+            
+          </div>
+          <div class="col">
+           
+          </div>
+          <div class="col">
+            <div class="left" id="heart_attack_circle">2.</div>
+            <a href="#" id="prevents" class="text-warning">Reduces Cholesterol Levels</a>
+            <p class="prevents_para1">The health benefits of olive oil include lower cholesterol levels in the your blood.</p>
+          
+          </div>
+        </div>
+        <div class="row" id="row_health">
+          <div class="col">
+            <div class="right" id="heart_attack_circle">3.</div>
+            <a href="#" id="prevents" class="text-warning">Improves Your Memory</a>
+            <p class="prevents_para">Olive oils’ antioxidants have been shown reverse of disease-related memory deficits.
+            </p>
+        
+          </div>
+          <div class="col">
+            <img class="fruit_image" src="./images/image-30.jpg" alt="">
+          </div>
+          <div class="col">
+            <div class="left" id="heart_attack_circle">4.</div>
+            <a href="#" id="prevents" class="text-warning">Helps Digestion</a>
+            <p class="prevents_para1">Although high in calories, olive oil has shown to help reduce levels of obesity.
+            </p>
+        
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="right" id="heart_attack_circle">5.</div>
+            <a href="#" id="prevents" class="text-warning">Helps Fight Cancer</a>
+            <p class="prevents_para">The elements in olive oil can decrease the risk of breast cancer and its recurrence.
+            </p>
+        
+          </div>
+          <div class="col">
+        
+          </div>
+          <div class="col">
+            <div class="left" id="heart_attack_circle">6.</div>
+            <a href="#" id="prevents" class="text-warning">Prevents Blood Clotting</a>
+            <p class="prevents_para1">Olive oil can reduce the risk of heart attacks and stroke, also improve blood clotting.
+            </p>
+        
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="our_team_container">
+    <div class="what_we_do">
+      <img class="what_we_do_image" src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/title_img.png"
+        alt="we_do">
+      <div class="what_we_do_h2">
+        <h2>Our Team</h2>
+      </div>
+    </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" id="team_card">
+        <img id="team_image" class="card-img-top" src="./images/new_team_2-360x360.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Nathan Smith</h5>
+          <p class="card-text text-center">A grower
+          </p>
+          <div id="team_icon" >
+          <div class="team_icon"><i class="fab fa-twitter"></i></div>
+          <div class="team_icon"><i class="fab fa-facebook-f"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" id="team_card">
+        <img id="team_image" class="card-img-top" src="./images/new_team_3-360x360.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Laura Palmer</h5>
+          <p class="card-text text-center">A grower
+          </p>
+          <div id="team_icon">
+            <div class="team_icon"><i class="fab fa-twitter"></i></div>
+            <div class="team_icon"><i class="fab fa-facebook-f"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" id="team_card">
+        <img id="team_image" class="card-img-top" src="./images/new_team_4-360x360.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Joe Carter</h5>
+          <p class="card-text text-center">A grower
+          </p>
+          <div id="team_icon">
+            <div class="team_icon"><i class="fab fa-twitter"></i></div>
+            <div class="team_icon"><i class="fab fa-facebook-f"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" id="team_card">
+        <img id="team_image" class="card-img-top" src="./images/new_team_1-360x360.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Melissa Cox</h5>
+          <p class="card-text text-center">A grower
+          </p>
+          <div id="team_icon">
+            <div class="team_icon"><i class="fab fa-twitter"></i></div>
+            <div class="team_icon"><i class="fab fa-facebook-f"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="testing_experience_container">
+      <div class="what_we_do">
+        <img class="what_we_do_image" src="http://oliveoil.ancorathemes.com/wp-content/uploads/2016/06/title_img.png"
+          alt="we_do">
+        <div class="what_we_do_h2">
+          <h2>Tasting Experience</h2>
+        </div>
+      </div>
+      <div class="container">
+      <div class="embed-responsive embed-responsive-16by9" id="video_player">
+     
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/uCPpNBwR8nI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="video_text_div">
+        <h4 class="video_h4">Passion For Quality</h4>
+        <p class="video_para">We love what we do and how we do! We put our care, quality and passion into
+        creating our extra virgin olive oil. Our passion pushes us to continually craft the
+        freshest extra virgin olive oil.</p>
+        <button class="video_button">VIEW EVENT CALENDER</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="enjoy_our_img_container">
+     <img src="./images/background-1.jpg" alt="" width="100%">
+      <h2 class="enjoy_our_img_h2">Enjoy Our Lavish Olive Oils And
+      Balsamic Vinegars!</h2>
+    </div>
+
+    <div class="blog_container">
+      <div class="what_we_do">
+        <img class="what_we_do_image" src="./images/title_img.webp"
+          alt="we_do">
+        <div class="what_we_do_h2">
+          <h2>The Blog</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" id="blog_card">
+              <img class="card-img-top" src="./images/image-3-370x270.jpg" alt="Card image cap">
+              <div class="card-body">
+               <a class="blog_date" href="">JUNE 10, 2016</a>
+                <h5 id="blog_h5" class="card-title text-center">Treating The Olive Trees Like Grapevines</h5>
+                <p id="blog_para" class="card-text text-center">Olive trees can be grown almost everywhere if you protect them during severe winters. You can even grow them in
+                containers and bring indoors...
+                </p>
+                <button id="blog_btn" class="btn btn-warning">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="blog_card">
+              <img class="card-img-top" src="./images/image-2-370x270.jpg" alt="Card image cap">
+              <div class="card-body">
+                <a class="blog_date" href="">JUNE 10, 2016</a>
+                <h5 id="blog_h5" class="card-title text-center">Gentle Manual Harvesting And Processing</h5>
+                <p id="blog_para" class="card-text text-center">Manual harvesting involves picking fruit by hand, using fruit clippers and knives etc. Properly trained workers harvest
+                and handle the fruits with...
+                </p>
+                <button id="blog_btn" class="btn btn-warning">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="blog_card">
+              <img class="card-img-top" src="./images/post-3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <a class="blog_date" href="">JUNE 10, 2016</a>
+                <h5 id="blog_h5" class="card-title text-center">Integration Of The Oil Mills In The Finca</h5>
+                <p id="blog_para" class="card-text text-center">Every single day we challenge our methods of modern and high-quality oil production. In doing so we strive for finding
+                best production methods on...
+                </p>
+                <button id="blog_btn" class="btn btn-warning">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="awards_container">
+      <div class="awards_class">
+        <img class="what_we_do_image" src="./images/title_img.webp" alt="we_do">
+        <div class="awards_h2">
+          <h2>Awards</h2>
+        </div>
+      </div>
+      <div class="container">
+      <div class="row" id="awards_row">
+        <div class="col-md-2">
+          <img src="./images/client-4.webp" alt="">
+        </div>
+        <div class="col-md-2">
+          <img src="./images/client-2.webp" alt="">
+        </div>
+        <div class="col-md-2">
+          <img src="./images/client-1.webp" alt="">
+        </div>
+        <div class="col-md-2">
+          <img src="./images/client-3.webp" alt="">
+        </div>
+        <div class="col-md-2">
+          <img src="./images/client-6.webp" alt="">
+        </div>
+        <div class="col-md-2">
+          <img src="./images/client-5.webp" alt="">
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="footer_container">
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-lg-start text-muted">
+     
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div  class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 id="footer_h6" class="fw-bold mb-4">
+               About Us
+              </h6>
+              <p class="about_us_para">
+              We love what we do and how we do! We put our care, quality and passion into creating our extra virgin olive oil. Our
+              passion pushes us to continually craft the freshest extra virgin olive oil.
+              <br>
+              We use traditional methods to produce oil so when you buy olive oil from us, you buy quality guarantee.
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 id="footer_h6" class="fw-bold mb-4">
+                Information
+              </h6>
+              <div class="information_para">
+              <p>
+                <a href="#!" class="text-reset">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Shop</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Our Range</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">About Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">News</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contacts</a>
+              </p>
+              </div>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 id="footer_h6" class="fw-bold mb-4">
+                Newsletter
+              </h6>
+              <div class="newsletter_para">
+              <p class="newsletter_para_p">
+                Stay up to date with all our recent products and promotions
+              </p>
+              <p>
+                <input type="email" id="form5Example21" class="form-control" placeholder="Your Email"/>
+              </p>
+              <p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  I have read and agree to the terms & conditions
+                </label>
+              </div>
+              </p>
+              <p>
+                <button type="submit" class="subscribe_btn">
+                  SUBSCRIBE
+                </button>
+              </p>
+              </div>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div id="contact_us_div" class="col-md-2">
+              <!-- Links -->
+              <h6 id="footer_h6" class="fw-bold mb-4">
+                Contact Us
+              </h6>
+              <div class="contact_us_para">
+              <p>888 Broadway
+              New York, NY, 18813</p>
+              <p>
+              Phone: 123-456-7890
+
+              </p>
+              <p>Fax: 123-456-7890</p>
+              <p>Email: info@yoursite.com</p>
+              <section id="footer_icon" class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+              
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+              
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+              
+                <!-- Instagram -->
+              
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+              
+                <!-- Github -->
+              </section>
+              <!-- Section: Social media -->
+              </div>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Copyright -->
+        <div class="text-left p-4" style="background-color: #3d4348">
+          <span style="color: #d9b000;"> AncoraThemes</span> <span style="color: white;"> © 2021. All rights reserved.</span>
+        </div>
+        <!-- Copyright -->
+      </section>
+      <!-- Section: Links  -->
+    
+     
+    </footer>
+    <!-- Footer -->
+    </div>
+
+  </div>
+ 
+
+
+
+  <!-- javascript file -->
+
+  <script >
+    window.onscroll = function () {
+  myFunction();
+};
+
+var navbar = document.getElementById('navbar');
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');
+  }
+}
+
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+
+  //Get the button
+    var mybutton = document.getElementById("scroll_up");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+</html>
+
